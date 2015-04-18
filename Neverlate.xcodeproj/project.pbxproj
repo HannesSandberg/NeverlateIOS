@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12B23AA1AE2B6F000D81EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B23A91AE2B6F000D81EAF /* AppDelegate.swift */; };
+		D12B23AC1AE2B6F000D81EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B23AB1AE2B6F000D81EAF /* ViewController.swift */; };
+		D12B23AF1AE2B6F000D81EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12B23AD1AE2B6F000D81EAF /* Main.storyboard */; };
+		D12B23B11AE2B6F000D81EAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12B23B01AE2B6F000D81EAF /* Images.xcassets */; };
+		D12B23B41AE2B6F000D81EAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12B23B21AE2B6F000D81EAF /* LaunchScreen.xib */; };
+		D12B23C01AE2B6F000D81EAF /* NeverlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B23BF1AE2B6F000D81EAF /* NeverlateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12B23BA1AE2B6F000D81EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12B239C1AE2B6F000D81EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12B23A31AE2B6F000D81EAF;
+			remoteInfo = Neverlate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12B23A41AE2B6F000D81EAF /* Neverlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neverlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B23A81AE2B6F000D81EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12B23A91AE2B6F000D81EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D12B23AB1AE2B6F000D81EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D12B23AE1AE2B6F000D81EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12B23B01AE2B6F000D81EAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D12B23B31AE2B6F000D81EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D12B23B91AE2B6F000D81EAF /* NeverlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B23BE1AE2B6F000D81EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12B23BF1AE2B6F000D81EAF /* NeverlateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverlateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12B23A11AE2B6F000D81EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B23B61AE2B6F000D81EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12B239B1AE2B6F000D81EAF = {
+			isa = PBXGroup;
+			children = (
+				D12B23A61AE2B6F000D81EAF /* Neverlate */,
+				D12B23BC1AE2B6F000D81EAF /* NeverlateTests */,
+				D12B23A51AE2B6F000D81EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12B23A51AE2B6F000D81EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12B23A41AE2B6F000D81EAF /* Neverlate.app */,
+				D12B23B91AE2B6F000D81EAF /* NeverlateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12B23A61AE2B6F000D81EAF /* Neverlate */ = {
+			isa = PBXGroup;
+			children = (
+				D12B23A91AE2B6F000D81EAF /* AppDelegate.swift */,
+				D12B23AB1AE2B6F000D81EAF /* ViewController.swift */,
+				D12B23AD1AE2B6F000D81EAF /* Main.storyboard */,
+				D12B23B01AE2B6F000D81EAF /* Images.xcassets */,
+				D12B23B21AE2B6F000D81EAF /* LaunchScreen.xib */,
+				D12B23A71AE2B6F000D81EAF /* Supporting Files */,
+			);
+			path = Neverlate;
+			sourceTree = "<group>";
+		};
+		D12B23A71AE2B6F000D81EAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12B23A81AE2B6F000D81EAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D12B23BC1AE2B6F000D81EAF /* NeverlateTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12B23BF1AE2B6F000D81EAF /* NeverlateTests.swift */,
+				D12B23BD1AE2B6F000D81EAF /* Supporting Files */,
+			);
+			path = NeverlateTests;
+			sourceTree = "<group>";
+		};
+		D12B23BD1AE2B6F000D81EAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12B23BE1AE2B6F000D81EAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12B23A31AE2B6F000D81EAF /* Neverlate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12B23C31AE2B6F000D81EAF /* Build configuration list for PBXNativeTarget "Neverlate" */;
+			buildPhases = (
+				D12B23A01AE2B6F000D81EAF /* Sources */,
+				D12B23A11AE2B6F000D81EAF /* Frameworks */,
+				D12B23A21AE2B6F000D81EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neverlate;
+			productName = Neverlate;
+			productReference = D12B23A41AE2B6F000D81EAF /* Neverlate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12B23B81AE2B6F000D81EAF /* NeverlateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12B23C61AE2B6F000D81EAF /* Build configuration list for PBXNativeTarget "NeverlateTests" */;
+			buildPhases = (
+				D12B23B51AE2B6F000D81EAF /* Sources */,
+				D12B23B61AE2B6F000D81EAF /* Frameworks */,
+				D12B23B71AE2B6F000D81EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12B23BB1AE2B6F000D81EAF /* PBXTargetDependency */,
+			);
+			name = NeverlateTests;
+			productName = NeverlateTests;
+			productReference = D12B23B91AE2B6F000D81EAF /* NeverlateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12B239C1AE2B6F000D81EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Hannes Sandberg";
+				TargetAttributes = {
+					D12B23A31AE2B6F000D81EAF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D12B23B81AE2B6F000D81EAF = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D12B23A31AE2B6F000D81EAF;
+					};
+				};
+			};
+			buildConfigurationList = D12B239F1AE2B6F000D81EAF /* Build configuration list for PBXProject "Neverlate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12B239B1AE2B6F000D81EAF;
+			productRefGroup = D12B23A51AE2B6F000D81EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12B23A31AE2B6F000D81EAF /* Neverlate */,
+				D12B23B81AE2B6F000D81EAF /* NeverlateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12B23A21AE2B6F000D81EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12B23AF1AE2B6F000D81EAF /* Main.storyboard in Resources */,
+				D12B23B41AE2B6F000D81EAF /* LaunchScreen.xib in Resources */,
+				D12B23B11AE2B6F000D81EAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B23B71AE2B6F000D81EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12B23A01AE2B6F000D81EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12B23AC1AE2B6F000D81EAF /* ViewController.swift in Sources */,
+				D12B23AA1AE2B6F000D81EAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12B23B51AE2B6F000D81EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12B23C01AE2B6F000D81EAF /* NeverlateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12B23BB1AE2B6F000D81EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12B23A31AE2B6F000D81EAF /* Neverlate */;
+			targetProxy = D12B23BA1AE2B6F000D81EAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D12B23AD1AE2B6F000D81EAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12B23AE1AE2B6F000D81EAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12B23B21AE2B6F000D81EAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12B23B31AE2B6F000D81EAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12B23C11AE2B6F000D81EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12B23C21AE2B6F000D81EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12B23C41AE2B6F000D81EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Neverlate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D12B23C51AE2B6F000D81EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Neverlate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D12B23C71AE2B6F000D81EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NeverlateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neverlate.app/Neverlate";
+			};
+			name = Debug;
+		};
+		D12B23C81AE2B6F000D81EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NeverlateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neverlate.app/Neverlate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12B239F1AE2B6F000D81EAF /* Build configuration list for PBXProject "Neverlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B23C11AE2B6F000D81EAF /* Debug */,
+				D12B23C21AE2B6F000D81EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12B23C31AE2B6F000D81EAF /* Build configuration list for PBXNativeTarget "Neverlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B23C41AE2B6F000D81EAF /* Debug */,
+				D12B23C51AE2B6F000D81EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D12B23C61AE2B6F000D81EAF /* Build configuration list for PBXNativeTarget "NeverlateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12B23C71AE2B6F000D81EAF /* Debug */,
+				D12B23C81AE2B6F000D81EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12B239C1AE2B6F000D81EAF /* Project object */;
+}
