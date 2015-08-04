@@ -77,11 +77,8 @@
 		D12B23A61AE2B6F000D81EAF /* Neverlate */ = {
 			isa = PBXGroup;
 			children = (
-				D12B23A91AE2B6F000D81EAF /* AppDelegate.swift */,
 				D12B23AB1AE2B6F000D81EAF /* ViewController.swift */,
 				D12B23AD1AE2B6F000D81EAF /* Main.storyboard */,
-				D12B23B01AE2B6F000D81EAF /* Images.xcassets */,
-				D12B23B21AE2B6F000D81EAF /* LaunchScreen.xib */,
 				D12B23A71AE2B6F000D81EAF /* Supporting Files */,
 			);
 			path = Neverlate;
@@ -90,6 +87,9 @@
 		D12B23A71AE2B6F000D81EAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D12B23A91AE2B6F000D81EAF /* AppDelegate.swift */,
+				D12B23B21AE2B6F000D81EAF /* LaunchScreen.xib */,
+				D12B23B01AE2B6F000D81EAF /* Images.xcassets */,
 				D12B23A81AE2B6F000D81EAF /* Info.plist */,
 			);
 			name = "Supporting Files";
